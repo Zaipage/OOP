@@ -1,0 +1,125 @@
+Kebin Sitorus (Staff) telah bergabung
+Gro Siregar (Staff) telah bergabung
+Pop Nasution (Freelancer) telah bergabung
+Luiy Simanjuntak (Freelancer) telah bergabung
+Toto Hutabarat (Intern) telah bergabung
+Asep (Intern) telah bergabung
+Jumlah Karyawan : 6
+Nama : Kebin Sitorus
+Jabatan : Staff
+Gaji : 8000000
+Departemen : IT
+Bonus : 800000
+Nama : Gro Siregar
+Jabatan : Staff
+Gaji : 6000000
+Departemen : Marketing
+Bonus : 600000
+Nama : Pop Nasution
+Jabatan : Freelancer
+Gaji : 0
+Jumlah Proyek : 0
+Bayaran per Proyek : 750000
+Bonus : 0
+Nama : Luiy Simanjuntak
+Jabatan : Freelancer
+Gaji : 0
+Jumlah Proyek : 0
+Bayaran per Proyek : 1000000
+Bonus : 0
+Nama : Toto Hutabarat
+Jabatan : Intern
+Gaji : 2500000
+Durasi Magang : 6 bulan
+Universitas : UI
+Bonus : 0
+Nama : Asep
+Jabatan : Intern
+Gaji : 2000000
+Durasi Magang : 3 bulan
+Universitas : ITB
+Bonus : 0
+Gaji Staff 1 : 8000000
+Kebin Sitorus (Staff) sedang bekerja
+Gaji Staff 1 setelah bekerja : 8800000
+Kebin Sitorus mengajukan cuti selama 5 hari
+Gaji Staff 2 : 6000000
+Gro Siregar (Staff) sedang bekerja
+Gaji Staff 2 setelah bekerja : 6600000
+Jumlah Proyek Freelancer 1 : 0
+Gaji Freelancer 1 : 0
+Pop Nasution (Freelancer) sedang bekerja
+Pop Nasution menyelesaikan proyek ke-1
+Gaji Freelancer 1 setelah proyek 1 : 750000
+Jumlah Proyek Freelancer 1 : 1
+Pop Nasution (Freelancer) sedang bekerja
+Pop Nasution menyelesaikan proyek ke-2
+Gaji Freelancer 1 setelah proyek 2 : 1500000
+Jumlah Proyek Freelancer 1 : 2
+Pop Nasution (Freelancer) sedang bekerja
+Pop Nasution menyelesaikan proyek ke-3
+Gaji Freelancer 1 setelah proyek 3 : 2250000
+Jumlah Proyek Freelancer 1 : 3
+Pop Nasution (Freelancer) sedang bekerja
+Pop Nasution menyelesaikan proyek ke-4
+Gaji Freelancer 1 setelah proyek 4 : 3000000
+Jumlah Proyek Freelancer 1 : 4
+Pop Nasution (Freelancer) sedang bekerja
+Pop Nasution menyelesaikan proyek ke-5
+Gaji Freelancer 1 setelah proyek 5 : 3750000
+Jumlah Proyek Freelancer 1 : 5
+Bonus Freelancer 1 : 100000
+Pop Nasution (Freelancer) sedang bekerja
+Pop Nasution menyelesaikan proyek ke-6
+Gaji Freelancer 1 setelah proyek 6 : 4500000
+Jumlah Proyek Freelancer 1 : 6
+Pop Nasution (Freelancer) sedang bekerja
+Pop Nasution menyelesaikan proyek ke-7
+Gaji Freelancer 1 setelah proyek 7 : 5250000
+Jumlah Proyek Freelancer 1 : 7
+Luiy Simanjuntak (Freelancer) sedang bekerja
+Luiy Simanjuntak menyelesaikan proyek ke-1
+Gaji Freelancer 2 setelah proyek 1 : 1000000
+Luiy Simanjuntak (Freelancer) sedang bekerja
+Luiy Simanjuntak menyelesaikan proyek ke-2
+Gaji Freelancer 2 setelah proyek 2 : 2000000
+Gaji Intern 1 : 2500000
+Toto Hutabarat (Intern) sedang bekerja
+Gaji Intern 1 setelah bekerja : 2500000
+Toto Hutabarat menyerahkan laporan magang kepada mentor
+Gaji Intern 2 : 2000000
+Asep (Intern) sedang bekerja
+Asep menyerahkan laporan magang kepada mentor
+Nama Staff 1 : Kebin Sitorus
+Nama Staff 1 setelah diubah : Kebin Napitupulu
+Departemen Staff 2 : Marketing
+Departemen Staff 2 setelah diubah : Human Resources
+Universitas Intern 1 : UI
+Universitas Intern 1 setelah diubah : UGM
+Durasi Magang Intern 1 : 6
+Bayaran per Proyek Freelancer 1 : 750000
+Gaji Staff 2 sebelum diubah : 6600000
+Gaji Staff 2 setelah diubah : 7500000
+Bayaran per Proyek Freelancer 1 sebelum diubah : 750000
+Bayaran per Proyek Freelancer 1 setelah diubah : 850000
+Durasi Magang Intern 1 sebelum diubah : 6
+Durasi Magang Intern 1 setelah diubah : 8
+Kebin Napitupulu (Staff) sedang bekerja
+Gro Siregar (Staff) sedang bekerja
+Pop Nasution (Freelancer) sedang bekerja
+Pop Nasution menyelesaikan proyek ke-8
+Luiy Simanjuntak (Freelancer) sedang bekerja
+Luiy Simanjuntak menyelesaikan proyek ke-3
+Toto Hutabarat (Intern) sedang bekerja
+Asep (Intern) sedang bekerja
+Jumlah Karyawan Aktif : 6
+Asep (Intern) telah menyelesaikan masa magangnya
+Jumlah karyawan: 5
+Luiy Simanjuntak (Freelancer) berhenti sebagai freelancer
+Jumlah karyawan: 4
+Kebin Napitupulu (Staff) berhenti dari departemen IT
+Jumlah karyawan: 3
+Jumlah Karyawan setelah resign : 3
+Nama Karyawan Aktif : Gro Siregar
+Nama Karyawan Aktif : Pop Nasution
+Nama Karyawan Aktif : Toto Hutabarat
