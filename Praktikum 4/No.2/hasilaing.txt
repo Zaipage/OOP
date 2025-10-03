@@ -1,0 +1,56 @@
+=== GAME CHARACTER SYSTEM ===
+
+--- TEST: Attack Info ---
+Karakter ini bisa melakukan serangan!
+Karakter ini bisa melakukan serangan!
+Arthas adalah Paladin, ahli dalam serangan fisik dan sihir!
+
+--- TEST: Perform Attack ---
+Aragorn mengayunkan pedang dengan kuat! memberikan 85 damage fisik!
+Gandalf melancarkan sihir dahsyat! memberikan 95 damage sihir!
+Arthas menyerang dengan pedang dan sihir sekaligus! memberikan 75 damage fisik dan 80 damage sihir
+
+--- TEST: Character Stats ---
+Kekuatan Fisik: 85
+Kekuatan Sihir: 95
+Kekuatan Fisik: 75
+Kekuatan Sihir: 80
+
+--- TEST: Power Enhancement ---
+Sebelum refineBlade:
+Kekuatan Fisik: 85
+Setelah refineBlade:
+Kekuatan Fisik: 95
+
+Sebelum meditate:
+Kekuatan Sihir: 95
+Setelah meditate:
+Kekuatan Sihir: 105
+
+Paladin dapat menggunakan kedua enhancement:
+Sebelum - Kekuatan Fisik: 75
+Sebelum - Kekuatan Sihir: 80
+Setelah - Kekuatan Fisik: 85
+Setelah - Kekuatan Sihir: 90
+
+--- TEST: Strength Comparison ---
+
+Warrior vs Warrior:
+Aragorn lebih kuat dari Conan
+
+Mage vs Mage:
+Gandalf lebih kuat dari Merlin
+
+Paladin vs Paladin:
+Arthas lebih kuat dari Uther
+
+Warrior vs Mage:
+Tidak dapat dibandingkan antara Aragorn dan Gandalf
+
+--- TEST: Polymorphism ---
+Semua karakter menyerang:
+Aragorn mengayunkan pedang dengan kuat! memberikan 95 damage fisik!
+Gandalf melancarkan sihir dahsyat! memberikan 105 damage sihir!
+Arthas menyerang dengan pedang dan sihir sekaligus! memberikan 85 damage fisik dan 90 damage sihir
+
+=== TEST SELESAI ===
