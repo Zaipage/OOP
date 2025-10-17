@@ -1,0 +1,164 @@
+============================================================
+SECTION 1: Basic Library Operations
+============================================================
+Library created: City Library
+
+Section names: Fiction, Science, History
+Book "1984" added to Fiction section
+Book "Animal Farm" added to Fiction section
+Book "Cosmos" added to Science section
+Book "A Brief History of Time" added to Science section
+Book "Sapiens" added to History section
+Section 'Fiction' added to City Library
+Section 'Science' added to City Library
+Section 'History' added to City Library
+
+Total sections in library: 3
+
+============================================================
+SECTION 2: Book Borrowing and Returning
+============================================================
+
+--- Testing borrowBook() ---
+Book1 available before borrow: true
+Book "1984" is now borrowed by Alice
+Book1 available after borrow: false
+Error: Book "1984" is already borrowed by Alice
+
+--- Testing getDetails() ---
+Book "1984" by George Orwell [Borrowed by Alice] - Section: Fiction
+Book "Animal Farm" by George Orwell [Available] - Section: Fiction
+
+--- Testing returnBook() ---
+Book "1984" returned by Alice
+Book1 available after return: true
+Error: Book "Animal Farm" is not currently borrowed
+
+============================================================
+SECTION 3: Section Display and Management
+============================================================
+
+--- Fiction Section Books ---
+Book "1984" by George Orwell [Available] - Section: Fiction
+Book "Animal Farm" by George Orwell [Available] - Section: Fiction
+
+--- Science Section Books ---
+Book "Cosmos" by Carl Sagan [Available] - Section: Science
+Book "A Brief History of Time" by Stephen Hawking [Available] - Section: Science        
+
+--- Using getBooks() method ---
+Fiction section has 2 books
+Science section has 2 books
+
+--- Testing removeBook() ---
+Book "Animal Farm" not found in Fiction section
+Book "Animal Farm" removed from Fiction section
+Fiction books after removal: 1
+Book "Nonexistent Book" not found in Fiction section
+
+--- Empty Section Display ---
+No books in this section
+
+============================================================
+SECTION 4: Library-Wide Search and Display
+============================================================
+
+--- Testing findBook() - Book exists ---
+Found "Cosmos" in Science section
+Book "Cosmos" by Carl Sagan [Available] - Section: Science
+
+--- Testing findBook() - Book doesn't exist ---
+Book "The Great Gatsby" not found in library
+
+--- Testing displayAllBooks() ---
+=== City Library - All Books ===
+Book "1984" by George Orwell [Available] - Section: Fiction
+Book "Cosmos" by Carl Sagan [Available] - Section: Science
+Book "A Brief History of Time" by Stephen Hawking [Available] - Section: Science        
+Book "Sapiens" by Yuval Noah Harari [Available] - Section: History
+
+============================================================
+SECTION 5: Member Management System
+============================================================
+Book "Harry Potter" added to Fantasy section
+Book "Lord of the Rings" added to Fantasy section
+Book "The Hobbit" added to Fantasy section
+Book "Chronicles of Narnia" added to Fantasy section
+Section 'Fantasy' added to City Library
+
+--- Testing canBorrow() ---
+Alice can borrow: true
+Bob can borrow: true
+
+--- Alice borrowing books ---
+Book "Harry Potter" is now borrowed by Alice
+Book "Lord of the Rings" is now borrowed by Alice
+Book "The Hobbit" is now borrowed by Alice
+
+Alice can borrow now: false
+
+--- Attempting to exceed borrow limit ---
+Error: Alice has reached the borrow limit of 3 books
+
+--- Bob trying to borrow Alice's book ---
+Error: Book "Harry Potter" is not available
+
+--- Testing displayBorrowedBooks() ---
+Alice's Borrowed Books (3/3):
+  - Harry Potter by J.K. Rowling
+  - Lord of the Rings by J.R.R. Tolkien
+  - The Hobbit by J.R.R. Tolkien
+Bob's Borrowed Books (0/2):
+No books currently borrowed
+
+--- Alice returning a book ---
+Book "Harry Potter" returned by Alice
+Alice's Borrowed Books (2/3):
+  - Lord of the Rings by J.R.R. Tolkien
+  - The Hobbit by J.R.R. Tolkien
+
+Alice can borrow now: true
+
+--- Alice borrowing after returning ---
+Book "Chronicles of Narnia" is now borrowed by Alice
+Alice's Borrowed Books (3/3):
+  - Lord of the Rings by J.R.R. Tolkien
+  - The Hobbit by J.R.R. Tolkien
+  - Chronicles of Narnia by C.S. Lewis
+
+--- Testing return error ---
+Error: Bob has not borrowed "Lord of the Rings"
+
+--- Bob borrowing books ---
+Book "Harry Potter" is now borrowed by Bob
+Book "Cosmos" is now borrowed by Bob
+Bob's Borrowed Books (2/2):
+  - Harry Potter by J.K. Rowling
+  - Cosmos by Carl Sagan
+
+Bob can borrow: false
+Error: Bob has reached the borrow limit of 2 books
+
+============================================================
+SECTION 6: Final Library State
+============================================================
+
+=== Complete Library Catalog ===
+Book "1984" by George Orwell [Available] - Section: Fiction
+Book "Cosmos" by Carl Sagan [Borrowed by Bob] - Section: Science
+Book "A Brief History of Time" by Stephen Hawking [Available] - Section: Science        
+Book "Sapiens" by Yuval Noah Harari [Available] - Section: History
+Book "Harry Potter" by J.K. Rowling [Borrowed by Bob] - Section: Fantasy
+Book "Lord of the Rings" by J.R.R. Tolkien [Borrowed by Alice] - Section: Fantasy
+Book "The Hobbit" by J.R.R. Tolkien [Borrowed by Alice] - Section: Fantasy
+Book "Chronicles of Narnia" by C.S. Lewis [Borrowed by Alice] - Section: Fantasy        
+
+=== All Members and Their Books ===
+Alice's Borrowed Books (3/3):
+  - Lord of the Rings by J.R.R. Tolkien
+  - The Hobbit by J.R.R. Tolkien
+  - Chronicles of Narnia by C.S. Lewis
+Bob's Borrowed Books (2/2):
+  - Harry Potter by J.K. Rowling
+  - Cosmos by Carl Sagan
+============================================================
