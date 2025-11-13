@@ -1,0 +1,10 @@
+Error: Jumlah mana tidak valid: -20
+Error: Mana tidak cukup! Mana saat ini: 80, Mana dibutuhkan: 150
+Current Mana: 80, Required: 150
+Spell berhasil dicast! Mana sekarang: 40
+Exception: Combo gagal saat cast spell kedua oleh Merlin
+Caused by: Mana tidak cukup! Mana saat ini: 40, Mana dibutuhkan: 80
+Spell berhasil dicast! Mana sekarang: 50
+Spell berhasil dicast! Mana sekarang: 10
+Combo spell berhasil! Total mana digunakan: 70
+Mana Gandalf tersisa: 10

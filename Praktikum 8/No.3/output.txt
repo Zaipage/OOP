@@ -1,0 +1,27 @@
+=== ORDERING SYSTEM TEST ===
+
+[1] Order Berhasil:
+Pesanan berhasil! Budi membeli 2 Mouse seharga Rp200000.0
+
+[2] Item Tidak Ditemukan:
+   [CHECK] Item 'Monitor' tidak ditemukan.
+
+[3] Stok Habis:
+   [CHECK] Stok tidak mencukupi. Tersedia: 0, Diminta: 1
+
+[4] Saldo Tidak Cukup:
+   [CHECK] Saldo tidak mencukupi. Saldo: Rp500000.0, Dibutuhkan: Rp5000000.0
+
+[5] Quantity Tidak Valid:
+   [CHECK] Jumlah pengurangan tidak boleh negatif.
+
+[6] Customer Tidak Ditemukan:
+   [CHECK] Customer 'Zaki' tidak ditemukan.
+
+[7] Duplicate Item:
+   [CHECK] Item dengan nama 'Mouse' sudah ada.
+
+[8] Order dengan Diskon:
+Pesanan berhasil! Budi membeli 1 Headset seharga Rp400000.0
+
+=== TEST SELESAI ===
